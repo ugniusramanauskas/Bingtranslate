@@ -1,0 +1,37 @@
+{
+    "name": "Bingtranslate",
+    "description": "Bingtranslate is a Zend Framework 2 module that uses a Bing Translate engine wrapper written by Renjith Pillai (http://www.renjith.co.in)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "translate",
+        "Bing",
+        "Microsoft",
+        "translator"
+    ],
+    "homepage": "https://github.com/ugniusr/Bingtranslate",
+    "authors": [
+        {
+            "name": "Ugnius Ramanauskas / Renjith Pillai",
+            "email": "ugnius.ramanauskas@gmail.com",
+            "homepage": "http://about.me/ugniusr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "require-dev": {
+        "zendframework/zend-modulemanager": "2.*",
+        "zendframework/zend-mvc": "2.*",
+        "zendframework/zend-config": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bingtranslate": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
